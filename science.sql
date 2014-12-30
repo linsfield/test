@@ -1,4 +1,8 @@
-CREATE VIEW `science` AS
+CREATE 
+    ALGORITHM = UNDEFINED 
+    DEFINER = `root`@`localhost` 
+    SQL SECURITY DEFINER
+VIEW `liberal_arts` AS
     SELECT 
         `student`.`stuID ` AS `stuID `,
         `student`.`stuExamID` AS `stuExamID`,
